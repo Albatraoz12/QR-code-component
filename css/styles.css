@@ -30,6 +30,24 @@ body {
   border-radius: 10px;
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+  padding-inline: 1rem;
+}
+
+h1 {
+  color: var(--dark-blue);
+}
+
+p {
+  color: var(--grayish-blue);
+}
+
 :root {
   /* Colors */
 
