@@ -8,6 +8,19 @@
 
 body {
   font-family: 'Outfit', sans-serif;
+  background-color: var(--light-gray);
+}
+
+.main-content {
+  max-width: 90vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
 }
 
 :root {
