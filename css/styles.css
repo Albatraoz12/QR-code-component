@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Colors */
+
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
 body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--light-gray);
@@ -46,15 +55,6 @@ h1 {
 
 p {
   color: var(--grayish-blue);
-}
-
-:root {
-  /* Colors */
-
-  --white: hsl(0, 0%, 100%);
-  --light-gray: hsl(212, 45%, 89%);
-  --grayish-blue: hsl(220, 15%, 55%);
-  --dark-blue: hsl(218, 44%, 22%);
 }
 
 .attribution {
