@@ -19,8 +19,15 @@ body {
   align-items: center;
 }
 
+.wrapper {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
 .image-container img {
   width: 100%;
+  border-radius: 10px;
 }
 
 :root {
